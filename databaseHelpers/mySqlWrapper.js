@@ -18,8 +18,8 @@ function initConnection() {
    connection = mySql.createConnection({
 
     host: 'localhost',
-    user: 'root',
-    password: 'databasePassword',
+    user: 'authuser',
+    password: 'authuserpwd',
     database: 'oAuth2Test'
   })
 }
